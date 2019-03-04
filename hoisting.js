@@ -17,7 +17,7 @@ var crazy = function() {
 }
 crazy ()
 
-function sayMyName() {
+var sayMyName = function() {
   // fix the code in here:
   var name = "Cricky";
 
@@ -28,4 +28,4 @@ function sayMyName() {
     var name = "Kristin";
   }
 }
-sayMyName ()(name)
+sayMyName ()()
