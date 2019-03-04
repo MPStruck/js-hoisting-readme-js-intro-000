@@ -13,11 +13,11 @@ var crazy = function() {
     var thisIsCrazy = function (){
     console.log("hey!!!")
     }
-  thisIsCrazy();
+    thisIsCrazy();
 }
 crazy ()
 
-var sayMyName = function() {
+function sayMyName() {
   // fix the code in here:
   var name = "Cricky";
 
@@ -28,4 +28,4 @@ var sayMyName = function() {
     var name = "Kristin";
   }
 }
-sayMyName ()()
+sayMyName ()(name)
